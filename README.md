@@ -1,6 +1,6 @@
 # dockering-node
 
-## Basic docker and docker-compose Command to Run App
+## Basic docker and docker-compose commands to Run App
 - docker build -t yogendra/nodeapp .
 - docker run -p 1234:1234 yogendra/nodeapp
 - docker-compose up --build
@@ -24,7 +24,7 @@ npm start
  docker run -p 1234:1234 yogendra/dockering-node
 ```
 
-## Run App With Db Connection Action (mongo) -> Docker compose
+## Run App With DB Connection Active (mongo) -> Docker Compose
 ```
 docker-compose up --build   (To Start App)
 docker-compose down   (To Stop App)
