@@ -29,6 +29,8 @@ npm start
 docker-compose up --build   (To Start App)
 docker-compose down   (To Stop App)
 ```
+### This Basic Node App is been packed inside docker and the container is been deployed in Heroku
+https://dockering-node.herokuapp.com/
 
 ## Author
 Yogendra Saxena
