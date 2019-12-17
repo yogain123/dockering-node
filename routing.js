@@ -7,7 +7,6 @@ router.get("/", function (req, res, next) {
 })
 
 router.get("/hello", function (req, res, next) {
-  console.log("Basic Route Hit");
   res.json({
     name:"yogendra",
     age: 25
