@@ -10,7 +10,7 @@
 - docker images
 - docker ps
 
-t=> tag, p=> port
+> t=> tag, p=> port
 
 ## Run App Outside Of Docker Container
 ``` 
