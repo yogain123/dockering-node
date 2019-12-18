@@ -1,10 +1,10 @@
 version: "3"
-services: 
+services:
   mymongo:
     image: "mongo"
 
   mynode:
     build: .
-    ports: 
+    ports:
       - "4444:4444"
       # localhost_port:docker_port (docker port should be same as port in index.js)
