@@ -37,8 +37,8 @@ https://dockering-node.herokuapp.com/
 - heroku login
 - docker ps
 - heroku container:login
-- heroku container:push web --app yogendra/dockering-node
-- heroku container:release web --app yogendra/dockering-node
+- heroku container:push web --app <name_of_app_in_heroku>
+- heroku container:release web --app <name_of_app_in_heroku>
 
 ## Author
 Yogendra Saxena
