@@ -33,13 +33,12 @@ This Basic Node App is been packed inside docker and the container is been deplo
 https://dockering-node.herokuapp.com/
 
 ## Deploying the container to Heroku
-```
-heroku login
-docker ps
-heroku container:login
-heroku container:push web --app yogendra/dockering-node
-heroku container:release web --app yogendra/dockering-node
-```
+
+- heroku login
+- docker ps
+- heroku container:login
+- heroku container:push web --app yogendra/dockering-node
+- heroku container:release web --app yogendra/dockering-node
 
 ## Author
 Yogendra Saxena
