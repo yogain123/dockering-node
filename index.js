@@ -6,7 +6,9 @@ const bodyParser = require("body-parser");
 const port = process.env.PORT || 4444;
 const connectDB = require("./config/db");
 const path = require("path");
+var favicon = require('serve-favicon')
 require("dotenv").config();
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 connectDB();
 
