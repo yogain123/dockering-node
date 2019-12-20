@@ -2,7 +2,7 @@
 
 ## Basic docker and docker-compose commands to Run App
 - docker build -t yogendra/nodeapp .
-- docker run -p 1234:1234 yogendra/nodeapp
+- docker run -p 4444:4444 yogendra/nodeapp
 - docker-compose up --build
 - docker-compose down
 - docker version
