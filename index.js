@@ -19,7 +19,7 @@ bugsnagClient.use(bugsnagExpress)
 var middleware = bugsnagClient.getPlugin('express')
 app.use(middleware.requestHandler)
 
-bugsnagClient.notify(new Error('Test error Yogendra')) // just for testin purpose
+//bugsnagClient.notify(new Error('Test error Yogendra')) // just for testin purpose
 
 // Adding Bugsnag Starts --------------------------------------
 

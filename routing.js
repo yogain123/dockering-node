@@ -17,4 +17,9 @@ router.get("/hello", function(req, res, next) {
   });
 });
 
+router.get("/bugsnag", function(req, res, next) {
+  console.log(address.city); // Error will be thrown in bugsnag
+  res.send(("hello"));
+});
+
 module.exports = router;
