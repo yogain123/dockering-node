@@ -13,6 +13,7 @@
 > t=> tag, p=> port
 
 ## Run App Outside Of Docker Container
+
 ``` 
 npm install
 npm start 
