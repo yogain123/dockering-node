@@ -40,5 +40,5 @@ https://dockering-node.herokuapp.com/
 - heroku container:push web --app <name_of_app_in_heroku>
 - heroku container:release web --app <name_of_app_in_heroku>
 
-## Author
-Yogendra Saxena
+> LICENSE: MIT </br>
+> Author: Yogendra Saxena
