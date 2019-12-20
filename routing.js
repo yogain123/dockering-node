@@ -21,4 +21,8 @@ router.get("/bugsnag", function(req, res, next) {
   res.send(("hello"));
 });
 
+router.get("/manualError", function(req, res, next) {
+  throw("Manual Throwing Error");
+});
+
 module.exports = router;
