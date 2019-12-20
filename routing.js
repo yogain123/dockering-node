@@ -8,7 +8,6 @@ router.get("/", function(req, res, next) {
 
 router.get("/hello", function(req, res, next) {
   console.log("Basic Route Hit");
-  //console.log(name.lol); // Error will be thrown in bugsnag dashboard if this line is uncommented
   res.json({
     name: "yogendra",
     age: 25,
