@@ -21,7 +21,7 @@ app.use(middleware.requestHandler)
 
 //bugsnagClient.notify(new Error('Test error Yogendra')) // just for testin purpose
 
-// Adding Bugsnag Starts --------------------------------------
+// Adding Bugsnag Ends --------------------------------------
 
 connectDB();
 
